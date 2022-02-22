@@ -1,0 +1,444 @@
+/*
+    GERAL ↴
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:  0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+main {
+    background-color: rgb(218, 218, 218);
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/*
+    ÁREA DO MENU ↴
+*/
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul {
+    max-width: 1250px;
+    display: flex;
+    margin: auto;
+    justify-content: right;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+
+nav li {
+    padding: 20px;
+}
+
+nav li:hover {
+    border-bottom: 3px solid #FFF;
+    font-size: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.active {
+    border-bottom: 3px solid #FFF;
+}
+
+/*
+    ÁREA DO BANNER ↴
+*/
+
+.banner {
+    background-image: url(/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner h1 {
+    text-align: center;
+    margin: auto;
+    color: #FFF;
+    padding-top: 100px;
+    font-size: 45px;
+}
+
+.photo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.photo img {
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.social_media img {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+.linkedin, .whatsapp, .github {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(0, 66, 247);
+    border-radius: 50%;
+}
+
+.github {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*
+    ÁREA SOBRE MIM ↴
+*/
+
+.welcome {
+    text-align: center;
+    display: block;
+}
+
+.welcome h1{
+    padding-bottom: 20px;
+}
+
+.welcome p {
+    padding-bottom: 40px;
+}
+
+.about_me {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.section_education {
+    display: flex;
+    margin-left: -25px;
+    text-align: center;
+}
+
+.education {
+    margin-left: 80px;
+}
+
+.education h2 {
+    padding-bottom: 20px;
+}
+
+.container_education {
+    width: 360px;
+    height: 370px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 10px -10px 3px rgba(158, 158, 158, 0.233);
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.container_line {
+    border-right: 2px solid rgb(0, 66, 247);
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    height: 80px;
+    padding: 10px;
+}
+
+.container_items {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container_item {
+    margin-bottom: 8px;
+}
+
+.container_top {
+    display: flex;
+}
+
+.container_circle {
+    background-color: rgb(0, 66, 247);
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+}
+
+.container_title {
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container_desc {
+    margin-left: 40px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.border {
+    border-bottom: 2px solid #000;
+}
+
+/*
+    ÁREA HABILIDADES ↴
+*/
+
+.skills {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skills h1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container_skills {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.container_skills img {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+}
+
+.content_skills {
+    width: 120px;
+    height: 145px;
+    background-color: #FFF;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px -10px 3px rgba(158, 158, 158, 0.233);
+}
+
+.content_skills h3 {
+    margin-top: -15px;
+}
+
+/*
+    ÁREA SERVIÇOS ↴
+*/
+
+.services {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.container_flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_services {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 190px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 10px -10px 3px rgba(158, 158, 158, 0.233);
+}
+
+.code img {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+/*
+    ÁREA PROJETOS ↴
+*/
+
+.projects {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.projects h1 {
+    padding-bottom: 20px;
+}
+
+.section_projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_projects {
+    text-align: center;
+    max-width: 400px;
+}
+
+.content_projects h3 {
+    font-size: 22px;
+}
+
+.content_projects img{
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px -10px 3px rgba(158, 158, 158, 0.233);
+}
+
+button {
+    background-color: #000;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+button a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*
+    ÁREA CONTATOS ↴
+*/
+
+.contact {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.contact h1 {
+    padding-bottom: 20px;
+}
+
+.section_contact img {
+    width: 40px;
+    height: 40px;
+}
+
+.section_contact {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.content_contact {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.area_local {
+    padding-left: 20px;
+}
+
+.area_email {
+    padding-left: 130px;
+}
+
+textarea, input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 330px;
+    height: 35px;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.input {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.name_user {
+    text-transform: capitalize;
+}
+
+.subject {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.subject input {
+    width: 450px;
+}
+
+.message textarea {
+    width: 330px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.send {
+    padding-top: 20px;
+}
+
+/*
+    ÁREA FOOTER↴
+*/
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer_created {
+    padding-top: 10px;
+}
+
+
+
+
