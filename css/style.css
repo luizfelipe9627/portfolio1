@@ -24,6 +24,13 @@ h1 {
     text-align: center;
 }
 
+.border {
+    width: 100vw;
+    height: 30px;
+    border: 2px solid #000;
+    background-color: #000;
+}
+
 /*
     ÁREA DO MENU ↴
 */
@@ -138,6 +145,13 @@ nav ul a {
 }
 
 .about_me {
+    background-image: url(/images/aboutme.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container_about_me {
+    background-color: rgba(0, 0, 0, 0.3);
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -213,18 +227,22 @@ nav ul a {
     margin-bottom: 5px;
 }
 
-.border {
-    border-bottom: 2px solid #000;
-}
-
 /*
     ÁREA HABILIDADES ↴
 */
 
 .skills {
+    background-image: url(/images/skills.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.area_skill {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
 .skills h1 {
     padding-bottom: 20px;
     text-align: center;
@@ -264,10 +282,17 @@ nav ul a {
     ÁREA SERVIÇOS ↴
 */
 
-.services {
+.area_services {
     padding-top: 20px;
     padding-bottom: 40px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.services {
+    background-image: url(/images/services.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .container_flex {
@@ -297,8 +322,15 @@ nav ul a {
 */
 
 .projects {
+    background-image: url(/images/projects.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.area_projects {
     padding-top: 20px;
     padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .projects h1 {
@@ -347,9 +379,16 @@ button a {
     ÁREA CONTATO ↴
 */
 
-.contact {
+.area_contact {
     padding-top: 20px;
     padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.3);}
+
+.contact {
+    background-image: url(/images/contatc.jpeg);
+    background-position: center;
+    background-size: cover;
+
 }
 
 .contact h1 {
