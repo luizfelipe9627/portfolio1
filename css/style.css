@@ -19,10 +19,6 @@ main {
     background-color: rgb(218, 218, 218);
 }
 
-h1 {
-    font-size: 30px;
-    text-align: center;
-}
 
 .border {
     width: 100vw;
@@ -138,10 +134,12 @@ nav ul a {
 
 .welcome h1{
     padding-bottom: 20px;
+    color: #FFF;
 }
 
 .welcome p {
     padding-bottom: 40px;
+    color: #FFF;
 }
 
 .about_me {
@@ -151,7 +149,7 @@ nav ul a {
 }
 
 .container_about_me {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     padding-top: 20px;
     padding-bottom: 60px;
 }
@@ -168,6 +166,7 @@ nav ul a {
 
 .education h2 {
     padding-bottom: 20px;
+    color: #FFF;
 }
 
 .container_education {
@@ -175,7 +174,7 @@ nav ul a {
     height: 370px;
     background-color: #FFF;
     border-radius: 20px;
-    box-shadow: 10px -10px 3px rgba(158, 158, 158, 0.233);
+    box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
 .container {
@@ -232,19 +231,20 @@ nav ul a {
 */
 
 .skills {
-    background-image: url(/images/skills.jpg);
+    background-image: url(/);
     background-position: center;
     background-size: cover;
 }
 
 .area_skill {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .skills h1 {
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
+    color: #FFF;
 }
 
 .skills h2 {
@@ -271,7 +271,7 @@ nav ul a {
     background-color: #FFF;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 10px -10px 3px rgba(158, 158, 158, 0.233);
+    box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
 .content_skills h3 {
@@ -286,7 +286,11 @@ nav ul a {
     padding-top: 20px;
     padding-bottom: 40px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.services h1 {
+    color: #FFF;
 }
 
 .services {
@@ -308,7 +312,7 @@ nav ul a {
     height: 190px;
     background-color: #FFF;
     border-radius: 20px;
-    box-shadow: 10px -10px 3px rgba(158, 158, 158, 0.233);
+    box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
 .code img {
@@ -330,11 +334,13 @@ nav ul a {
 .area_projects {
     padding-top: 20px;
     padding-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .projects h1 {
     padding-bottom: 20px;
+    color: #FFF;
+    text-align: center;
 }
 
 .section_projects {
@@ -349,6 +355,12 @@ nav ul a {
 
 .content_projects h3 {
     font-size: 22px;
+    padding-bottom: 10px;
+    color: #FFF;
+}
+
+.content_projects p {
+    color: #FFF;
 }
 
 .content_projects img{
@@ -356,7 +368,7 @@ nav ul a {
     width: 400px;
     height: 200px;
     margin-bottom: 20px;
-    box-shadow: 10px -10px 3px rgba(158, 158, 158, 0.233);
+    box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
 button {
@@ -382,22 +394,25 @@ button a {
 .area_contact {
     padding-top: 20px;
     padding-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.3);}
+    background-color: rgba(0, 0, 0, 0.6);}
 
 .contact {
     background-image: url(/images/contatc.jpeg);
     background-position: center;
     background-size: cover;
-
 }
 
 .contact h1 {
     padding-bottom: 20px;
+    text-align: center;
+    color: #FFF;
 }
+
 
 .section_contact img {
     width: 40px;
     height: 40px;
+    color: #FFF;
 }
 
 .section_contact {
@@ -414,10 +429,12 @@ button a {
 
 .area_local {
     padding-left: 20px;
+    color: #FFF;
 }
 
 .area_email {
     padding-left: 130px;
+    color: #FFF;
 }
 
 textarea, input {
@@ -432,6 +449,10 @@ textarea, input {
     border-left: none;
     border-right: none;
     outline: none;
+}
+
+::placeholder {
+    color: #FFF;
 }
 
 .input {
