@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Syne+Mono&display=swap+" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/style.css">        
-        <link rel="stylesheet" href="https://luizfelipe9627.github.io/portifolio/css/style.css">
+       
         <script src="https://luizfelipe9627.github.io/portifolio/js/menu.js"></script>
         <title>Luiz Felipe Silva</title>
     </head>
@@ -22,12 +22,12 @@
 
                             <nav>
                                 <ul>
-                                    <li class="active"><a href="">Inicio</a></li>
-                                    <li><a href="">Sobre mim</a></li>
-                                    <li><a href="">Habilidades</a></li>
-                                    <li><a href="">Serviços</a></li>
-                                    <li><a href="">Projetos</a></li>
-                                    <li><a href="">Contato</a></li>
+                                    <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#sobremim">Sobre mim</a></li>
+                                    <li><a href="#habilidades">Habilidades</a></li>
+                                    <li><a href="#serviços">Serviços</a></li>
+                                    <li><a href="#projetos">Projetos</a></li>
+                                    <li><a href="#contato">Contato</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -37,7 +37,7 @@
                         -->
 
                         <div class="default_dark banner">
-                            <div class="container_body banner">
+                            <div class="container_body banner" id="inicio">
                                 <div class="area_banner">
                                     <h1>Luiz Felipe Silva</h1>
                                     <p>Desenvolvedor 
@@ -58,8 +58,6 @@
                                         <div class="linkedin">
                                             <a href="https://www.linkedin.com/in/luizfelipe9627/" title="Linkedin" target="_blank"><img src="https://luizfelipe9627.github.io/portifolio/images/linkedin.jpg" alt=""></a>
                                         </div> 
-                            </div> 
-                                        </div> 
                                     </div>
                                 </div>
                             </div>
@@ -68,8 +66,6 @@
                 </div>
             </div>
         </header>
-
-    
 
         <main>
             <a class="whatsapp-link" href="https://wa.link/yuf2ga" target="_blank" title="Enviar mensagem">
@@ -82,7 +78,7 @@
                     ÁREA SOBRE MIM  ↴
                 -->
 
-                <div class="container_text">
+                <div class="container_text" id="sobremim">
                     <div class="text">
                         <h1>Sobre mim</h1>
                         <p>Olá, seja muito bem vindo(a) ao meu portifólio!<br>
@@ -249,13 +245,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div >
             
                     <!-- 
                         ÁREA HABILIDADES  ↴
                     -->
 
-                <div class="container_text">
+                <div class="container_text" id="habilidades">
                     <div class="text">
                         <h1>Habilidades</h1>
                         <p>Desde o inicio dos meus estudos tenho grande paixão por programação Front-end e acredito que é um dos meus pontos fortes.</p>
@@ -300,7 +296,7 @@
                         ÁREA SERVIÇOS ↴
                     -->
 
-                <div class="container_text">
+                <div class="container_text" id="serviços">
                     <div class="text">
                         <h1>Serviços</h1>
                         <p>Trabalho garantido, entregue no prazo e um orçamento que cabe no seu bolso.</p>
@@ -337,7 +333,7 @@
                         ÁREA PROJETOS ↴
                     -->
 
-                <div class="container_text">
+                <div class="container_text" id="projetos">
                     <div class="text">
                         <h1>Projetos</h1>
                         <p>Meus maiores projetos, usando as linguagens em que eu tenho conhecimento.</p>
@@ -377,7 +373,7 @@
                     ÁREA CONTATO ↴
                 -->
 
-                <div class="container_text">
+                <div class="container_text" id="contato">
                     <div class="text">
                         <h1>Entre em contato</h1>
                         <p>Não perca tempo, me consulte e tenha seu web site na palma da sua mão.</p>
@@ -402,24 +398,26 @@
                             </div>
                         </div>
 
-                        <div class="input">
-                            <div class="user">
-                                <input type="text" placeholder="Nome" class="name_user">
-                                <input type="email" placeholder="Email">
+                        <form action="" >
+                            <div class="input">
+                                <div class="user">
+                                    <input type="text" placeholder="Nome" class="name_user" required>
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                                
+                                <div class="subject">
+                                    <input type="text" placeholder="Assunto" required>
+                                </div>
+                                
+                                <div class="message">
+                                    <textarea cols="50" rows="10" placeholder="Digite aqui sua mensagem" required></textarea>
+                                </div>
+    
+                                <div class="send">
+                                    <button>Enviar</button>
+                                </div>
                             </div>
-                            
-                            <div class="subject">
-                                <input type="text" placeholder="Assunto">
-                            </div>
-                            
-                            <div class="message">
-                                <textarea cols="50" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
-                            </div>
-
-                            <div class="send">
-                                <button><a href="">Enviar</a></button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </section>

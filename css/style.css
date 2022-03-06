@@ -1,14 +1,3 @@
-.whatsapp-link {
-    position: fixed;
-    bottom: -10px;
-    right: 0px;
-}
-
-.whatsapp-link img {
-    width: 120px;
-    height: 120px;
-}
-
 /*
     GERAL ↴
 */
@@ -66,13 +55,30 @@ button {
     border-radius: 20px;
     border: none;
     margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF;
 }
 
 button a {
-    font-size: 16px;
-    font-weight: bold;
     text-decoration: none;
     color: #FFF;
+}
+
+/*
+    BUTTON FLUTUANTE WHATSAPP ↴
+*/
+
+.whatsapp-link {
+    position: fixed;
+    bottom: -10px;
+    right: 0px;
+}
+
+.whatsapp-link img {
+    width: 120px;
+    height: 120px;
 }
 
 /*
