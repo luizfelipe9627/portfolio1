@@ -9,15 +9,9 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
     flex-wrap: wrap;
-    font-size: 18px;
-    
-}
-
-main {
-    background-color: #000;
+    font-size: 20px;
 }
 
 .container_text {
@@ -35,7 +29,7 @@ main {
 }
 
 .container_body {
-    background-color:  rgba(0, 0, 0, 0.6);
+    background-color:  rgba(0, 0, 0, 0.4);
     padding: 40px;
 }
 
@@ -44,11 +38,13 @@ h1, h2 {
     font-size: 30px;
     padding-bottom: 5px;
     text-align: center;
+    font-family: 'Prompt', sans-serif;
 }
 
 p {
     color: #5f6c7b;
     max-width: 50vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 button {
@@ -85,7 +81,7 @@ nav ul {
     justify-content: right;
     list-style: none;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     align-items: center;
 }
 
@@ -94,7 +90,8 @@ nav li {
 }
 
 nav li:hover {
-    border-bottom: 3px solid #FFF;
+    border-bottom: 3px solid #90b4ce;
+    color: #90b4ce;
     font-size: 20px;
 }
 
@@ -103,8 +100,12 @@ nav ul a {
     color: #FFF;
 }
 
+nav ul a:hover {
+    color: #90b4ce;
+}
+
 .active {
-    border-bottom: 3px solid #FFF;
+    border-bottom: 3px solid #90b4ce;
 }
 
 /*
@@ -112,7 +113,7 @@ nav ul a {
 */
 
 .default_dark.banner{
-    background-image: url(/images/aboutme.jpg);
+    background-image: url(/images/banner.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -125,16 +126,18 @@ nav ul a {
 .banner h1 {
     text-align: center;
     margin: auto;
-    color: #094067;
+    color: #90b4ce;
     font-size: 40px;
     padding-top: 70px;
+    font-family: 'Syne Mono', monospace;
 }
 
 .banner p {
     text-align: center;
     margin: auto;
-    color: #094067;
-    font-size: 35px;
+    color: #90b4ce;
+    font-size: 25px;
+    font-family: 'Syne Mono', monospace;
 }
 
 .photo {
@@ -165,7 +168,7 @@ nav ul a {
     text-align: center;
     width: 35px;
     height: 35px;
-    background-color: #3da9fc;
+    background-color: #fffffe;
     border-radius: 50%;
 }
 
@@ -190,11 +193,11 @@ nav ul a {
 }
 
 .container_education {
-    width: 360px;
+    width: 340px;
     height: 370px;
     background-color: #fffffe;
     border-radius: 20px;
-    box-shadow: 10px -10px 3px #fffffe28;
+    box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
 .container {
@@ -255,7 +258,7 @@ nav ul a {
 */
 
 .default_dark.skills{
-    background-image: url(/images/skills.jpg);
+    background-image: url(/images/skills.webp);
     background-position: center;
     background-size: cover;
 }
@@ -308,8 +311,7 @@ nav ul a {
     margin-top: 20px;
     margin-bottom: 10px;
     width: 400px;
-    height: 190px;
-    background-color: #FFF;
+    background-color: #fffffe;
     border-radius: 20px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
@@ -325,7 +327,7 @@ nav ul a {
 */
 
 .default_dark.projects{
-    background-image: url(/images/projects.jpg);
+    background-image: url(/images/projects.png);
     background-position: center;
     background-size: cover;
 }
@@ -343,6 +345,10 @@ nav ul a {
 .content_projects h3 {
     font-size: 22px;
     padding-bottom: 30px;
+}
+
+.content_projects p {
+    color: #fffffe;
 }
 
 .content_projects img{
@@ -371,7 +377,7 @@ nav ul a {
 .section_contact {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    text-align: center
 }
 
 .content_contact {
@@ -380,11 +386,18 @@ nav ul a {
 }
 
 .area_local {
-    padding-left: 20px;
+    background-color: #fffffe;
+    padding: 20px;
+    border-radius: 10px 30px;
+    box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
 .area_email {
-    padding-left: 130px;
+    margin-left: 130px;
+    background-color: #fffffe;
+    padding: 20px;
+    border-radius: 10px 30px;
+    box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
 textarea, input {
@@ -402,8 +415,7 @@ textarea, input {
 }
 
 ::placeholder {
-    color: #5f6c7b;
-    font-weight: bold;
+    color: #fffffe;
 }
 
 .input {
@@ -440,7 +452,7 @@ textarea, input {
 
 footer {
     background-color: #094067;
-    color: #FFF;
+    color: #fffffe;
     font-weight: bold;
     padding: 30px;
     text-align: center;
@@ -449,4 +461,139 @@ footer {
 .footer_created {
     padding-top: 10px;
 }
+
+.footer_created a {
+    text-decoration: none;
+    color: #fffffe;
+}
+
+.footer_created a:hover {
+    color: #90b4ce;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .banner h1 {
+        padding-top: 130px;
+        font-size: 35px;
+    }
+
+    .banner p {
+        font-size: 30px;
+    }
+
+    .photo img {
+        margin-top: 50px;
+    }
+    
+    .social_media {
+        padding-top: 80px;
+    }
+
+
+
+    p {
+        max-width: 80vw;
+    }
+
+    .container_about_me {
+        flex-direction: column;
+    }
+
+    .container_body.education {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .container_education {
+        margin-bottom: 30px
+    }
+
+
+    .container_body.skills {
+        padding-bottom: 10px
+    }
+    
+    .container_skills {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    }
+
+
+    .content_skills {
+        margin-bottom: 30px;
+    }
+
+
+ 
+    
+    .container_flex_services {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .section_services {
+        width: auto;
+    }
+
+    .container_body.projects {
+        padding-top: 0;
+    }
+
+    .section_projects {
+        flex-direction: column;
+    }
+
+    .content_projects {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .content_projects img {
+        width: 300px;
+    }
+
+
+    .content_contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .area_local, .area_email {
+        width: 300px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .input {
+        padding-top: 0;
+    }
+
+    .subject input {
+        width: 300px
+    }
+
+    input {
+        width: 300px;
+    }
+
+    .name_user {
+        margin-bottom: 30px;
+    } 
+
+    .message textarea {
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+    
+        
 
