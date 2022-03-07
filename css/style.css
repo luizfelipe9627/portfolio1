@@ -13,18 +13,50 @@ body {
     overflow-x: hidden;
     flex-wrap: wrap;
     font-size: 18px;
+    
 }
 
 main {
-    background-color: rgb(218, 218, 218);
+    background-color: #000;
 }
 
+.container_text {
+   width: 100vw;
+   background-color: #fffffe;
+   display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
 
-.border {
-    width: 100vw;
-    height: 30px;
-    border: 2px solid #000;
-    background-color: #000;
+.text {
+    text-align: center;
+    padding: 40px;
+}
+
+h1, h2 {
+    color: #094067;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #5f6c7b;
+    max-width: 50vw;
+}
+
+button {
+    background-color: #3da9fc;
+    color: #fffffe;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+
+.containers {
+    padding: 40px;
 }
 
 /*
@@ -32,7 +64,7 @@ main {
 */
 
 nav {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #094067ad;
     position: fixed;
     width: 100vw;
 }
@@ -71,9 +103,7 @@ nav ul a {
 */
 
 .banner {
-    background-image: url(/images/banner.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: #fffffe;
     width: 100vw;
     height: 100vh;
 }
@@ -81,9 +111,16 @@ nav ul a {
 .banner h1 {
     text-align: center;
     margin: auto;
-    color: #FFF;
+    color: #094067;
     padding-top: 100px;
-    font-size: 45px;
+    font-size: 40px;
+}
+
+.banner p {
+    text-align: center;
+    margin: auto;
+    color: #094067;
+    font-size: 35px;
 }
 
 .photo {
@@ -92,7 +129,7 @@ nav ul a {
 }
 
 .photo img {
-    border: 5px solid #FFF;
+    border: 5px solid #094067;
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -114,7 +151,7 @@ nav ul a {
     text-align: center;
     width: 35px;
     height: 35px;
-    background-color: rgb(0, 66, 247);
+    background-color: #3da9fc;
     border-radius: 50%;
 }
 
@@ -127,21 +164,6 @@ nav ul a {
     ÁREA SOBRE MIM ↴
 */
 
-.welcome {
-    text-align: center;
-    display: block;
-}
-
-.welcome h1{
-    padding-bottom: 20px;
-    color: #FFF;
-}
-
-.welcome p {
-    padding-bottom: 40px;
-    color: #FFF;
-}
-
 .about_me {
     background-image: url(/images/aboutme.jpg);
     background-position: center;
@@ -150,31 +172,22 @@ nav ul a {
 
 .container_about_me {
     background-color: rgba(0, 0, 0, 0.6);
-    padding-top: 20px;
-    padding-bottom: 60px;
 }
 
-.section_education {
+.containers.education {
     display: flex;
-    margin-left: -25px;
-    text-align: center;
 }
 
 .education {
-    margin-left: 80px;
-}
-
-.education h2 {
-    padding-bottom: 20px;
-    color: #FFF;
+    justify-content: space-around;
 }
 
 .container_education {
     width: 360px;
     height: 370px;
-    background-color: #FFF;
+    background-color: #fffffe;
     border-radius: 20px;
-    box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
+    box-shadow: 10px -10px 3px #fffffe28;
 }
 
 .container {
@@ -184,10 +197,9 @@ nav ul a {
 }
 
 .container_line {
-    border-right: 2px solid rgb(0, 66, 247);
+    border-right: 2px solid #3da9fc;
     left: 10px;
     position: absolute;
-    top: 30px;
     height: 80px;
     padding: 10px;
 }
@@ -207,7 +219,7 @@ nav ul a {
 }
 
 .container_circle {
-    background-color: rgb(0, 66, 247);
+    background-color: #3da9fc;
     border-radius: 50%;
     height: 23px;
     width: 23px;
@@ -224,39 +236,19 @@ nav ul a {
     margin-left: 40px;
     text-align: left;
     margin-bottom: 5px;
+    color: #5f6c7b;
 }
 
 /*
     ÁREA HABILIDADES ↴
 */
-
-.skills {
-    background-image: url(/);
-    background-position: center;
-    background-size: cover;
+.area_skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-
-.area_skill {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.skills h1 {
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
-    color: #FFF;
-}
-
-.skills h2 {
-    padding-bottom: 20px;
-    text-align: center;
-}
-
 .container_skills {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    padding-bottom: 40px;
 }
 
 .container_skills img {
@@ -268,7 +260,7 @@ nav ul a {
 .content_skills {
     width: 120px;
     height: 145px;
-    background-color: #FFF;
+    background-color: #fffffe;
     border-radius: 20px;
     text-align: center;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
@@ -287,10 +279,6 @@ nav ul a {
     padding-bottom: 40px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
-}
-
-.services h1 {
-    color: #FFF;
 }
 
 .services {
@@ -325,22 +313,14 @@ nav ul a {
     ÁREA PROJETOS ↴
 */
 
-.projects {
+.containers.projects {
+    background-color: rgba(0, 0, 0, 0.6);;
+}
+
+.fundo {
     background-image: url(/images/projects.jpg);
     background-position: center;
     background-size: cover;
-}
-
-.area_projects {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.projects h1 {
-    padding-bottom: 20px;
-    color: #FFF;
-    text-align: center;
 }
 
 .section_projects {
@@ -355,12 +335,7 @@ nav ul a {
 
 .content_projects h3 {
     font-size: 22px;
-    padding-bottom: 10px;
-    color: #FFF;
-}
-
-.content_projects p {
-    color: #FFF;
+    padding-bottom: 30px;
 }
 
 .content_projects img{
@@ -369,15 +344,6 @@ nav ul a {
     height: 200px;
     margin-bottom: 20px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
-}
-
-button {
-    background-color: #000;
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    margin-top: 10px;
 }
 
 button a {
@@ -392,27 +358,19 @@ button a {
 */
 
 .area_contact {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.6);}
-
-.contact {
     background-image: url(/images/contatc.jpeg);
     background-position: center;
     background-size: cover;
+    
 }
 
-.contact h1 {
-    padding-bottom: 20px;
-    text-align: center;
-    color: #FFF;
+.contact {
+    background-color: rgba(0, 0, 0, 0.4);
 }
-
 
 .section_contact img {
     width: 40px;
     height: 40px;
-    color: #FFF;
 }
 
 .section_contact {
@@ -429,12 +387,10 @@ button a {
 
 .area_local {
     padding-left: 20px;
-    color: #FFF;
 }
 
 .area_email {
     padding-left: 130px;
-    color: #FFF;
 }
 
 textarea, input {
@@ -452,7 +408,8 @@ textarea, input {
 }
 
 ::placeholder {
-    color: #FFF;
+    color: #5f6c7b;
+    font-weight: bold;
 }
 
 .input {
@@ -488,7 +445,7 @@ textarea, input {
 */
 
 footer {
-    background-color: #000;
+    background-color: #094067;
     color: #FFF;
     font-weight: bold;
     padding: 30px;
