@@ -68,10 +68,15 @@ button a {
     ÁREA DO MENU ↴
 */
 
-nav {
-    background-color: #094067ad;
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #094067da;
     position: fixed;
     width: 100vw;
+    height: 60px;
+    padding-right: 20px;
 }
 
 nav ul {
@@ -97,7 +102,7 @@ nav li:hover {
 
 nav ul a {
     text-decoration: none;
-    color: #FFF;
+    color: #fffffe;
 }
 
 nav ul a:hover {
@@ -107,6 +112,11 @@ nav ul a:hover {
 .active {
     border-bottom: 3px solid #90b4ce;
 }
+
+.menu_mobile {
+    display: none;
+}
+
 
 /*
     ÁREA DO BANNER ↴
@@ -472,6 +482,37 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+    
+    .menu_mobile {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0 , 0.9);
+        width: 50vw;
+        height: calc(100vh - 70px);
+        top: 6.5vh;
+        right: 0;
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+    }
+
+    .menu nav li a {
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+    }
+
+    .menu li.active a {
+        border: none;
+    }
+
     .banner h1 {
         padding-top: 130px;
         font-size: 35px;
