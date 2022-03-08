@@ -74,7 +74,6 @@ button a {
     background-color: #094067da;
     position: fixed;
     width: 100vw;
-    height: 75px;
     padding-right: 40px;
 }
 
@@ -116,7 +115,6 @@ nav ul a:hover {
     display: none;
 }
 
-
 /*
     ÁREA DO BANNER ↴
 */
@@ -137,7 +135,7 @@ nav ul a:hover {
     margin: auto;
     color: #90b4ce;
     font-size: 40px;
-    padding-top: 90px;
+    padding-top: 50px;
     font-family: 'Syne Mono', monospace;
 }
 
@@ -491,6 +489,10 @@ footer {
 
 @media (min-width: 320px) and (max-width: 425px) {
     
+    .menu {
+        height: 75px;
+    }
+
     .menu_mobile {
         display: block;
         width: 55px;
