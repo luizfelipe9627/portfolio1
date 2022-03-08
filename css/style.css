@@ -192,7 +192,7 @@ nav ul a:hover {
 */
 
 .default_dark.about_me{
-    background-image: url(/images/aboutme.jpg);
+    background-image: url(https://luizfelipe9627.github.io/portifolio/images/aboutme.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -268,7 +268,7 @@ nav ul a:hover {
 */
 
 .default_dark.skills{
-    background-image: url(/images/skills.webp);
+    background-image: url(https://luizfelipe9627.github.io/portifolio/images/skills.webp);
     background-position: center;
     background-size: cover;
 }
@@ -302,7 +302,7 @@ nav ul a:hover {
 */
 
 .default_dark.services{
-    background-image: url(/images/services.jpg);
+    background-image: url(https://luizfelipe9627.github.io/portifolio/images/services.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -337,7 +337,7 @@ nav ul a:hover {
 */
 
 .default_dark.projects{
-    background-image: url(/images/projects.png);
+    background-image: url(https://luizfelipe9627.github.io/portifolio/images/projects.png);
     background-position: center;
     background-size: cover;
 }
@@ -374,7 +374,7 @@ nav ul a:hover {
 */
 
 .default_dark.contact{
-    background-image: url(/images/contatc.jpeg);
+    background-image: url(https://luizfelipe9627.github.io/portifolio/images/contatc.jpeg);
     background-position: center;
     background-size: cover;
 }
