@@ -201,8 +201,8 @@ nav ul a:hover {
 }
 
 .container_education {
-    width: 340px;
-    height: 370px;
+    height: 380px;
+    width: 300px;
     background-color: #fffffe;
     border-radius: 10px 30px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
@@ -277,19 +277,13 @@ nav ul a:hover {
 }
 
 .container_skills img {
-    width: 120px;
-    height: 120px;
-    padding: 25px;
-}
-
-.container_skills img:hover {
-    width: 130px;
-    height: 130px;
+    width: 80px;
+    height: 80px;
 }
 
 .content_skills {
-    width: 140px;
-    height: 145px;
+    width: 250px;
+    padding: 20px;
     background-color: #fffffe;
     border-radius: 10px 30px;
     text-align: center;
@@ -297,7 +291,11 @@ nav ul a:hover {
 }
 
 .content_skills h3 {
-    margin-top: -25px;
+    padding-bottom: 10px;
+}
+
+.content_skills p {
+    padding-top: 10px;
 }
 
 /*
@@ -363,10 +361,6 @@ nav ul a:hover {
 .content_projects h3 {
     font-size: 22px;
     padding-bottom: 30px;
-}
-
-.content_projects p {
-    color: #fffffe;
 }
 
 .content_projects img{
