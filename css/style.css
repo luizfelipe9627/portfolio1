@@ -520,9 +520,13 @@ footer {
         border: none;
     }
 
+    .container_body.banner {
+        padding: 0;
+        padding-top: 40px;
+    }
+
     .banner h1 {
         font-size: 35px;
-        padding-top: 15vh;
     }
 
     .banner p {
