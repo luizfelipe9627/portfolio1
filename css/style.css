@@ -74,6 +74,7 @@ button a {
     background-color: #094067da;
     position: fixed;
     width: 100vw;
+    height: 75px;
     padding-right: 40px;
 }
 
@@ -136,7 +137,7 @@ nav ul a:hover {
     margin: auto;
     color: #90b4ce;
     font-size: 40px;
-    padding-top: 70px;
+    padding-top: 90px;
     font-family: 'Syne Mono', monospace;
 }
 
@@ -155,7 +156,7 @@ nav ul a:hover {
 
 .photo img {
     border: 5px solid #094067;
-    border-radius: 10px 30px;
+    border-radius: 10px 40px;
     width: 300px;
     height: 300px;
 }
@@ -201,10 +202,9 @@ nav ul a:hover {
 }
 
 .container_education {
-    height: 380px;
-    width: 300px;
+    padding: 20px;
     background-color: #fffffe;
-    border-radius: 10px 30px;
+    border-radius: 10px 40px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
@@ -285,7 +285,7 @@ nav ul a:hover {
     width: 250px;
     padding: 20px;
     background-color: #fffffe;
-    border-radius: 10px 30px;
+    border-radius: 10px 40px;
     text-align: center;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
@@ -323,7 +323,7 @@ nav ul a:hover {
     margin-bottom: 10px;
     width: 400px;
     background-color: #fffffe;
-    border-radius: 10px 30px;
+    border-radius: 10px 40px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
@@ -363,8 +363,12 @@ nav ul a:hover {
     padding-bottom: 30px;
 }
 
+.content_projects p {
+    color: #fffffe;
+}
+
 .content_projects img{
-    border-radius: 10px 30px;
+    border-radius: 10px 40px;
     width: 400px;
     height: 200px;
     margin-bottom: 20px;
@@ -405,7 +409,7 @@ nav ul a:hover {
 .area_local {
     background-color: #fffffe;
     padding: 20px;
-    border-radius: 10px 30px;
+    border-radius: 10px 40px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
@@ -413,7 +417,7 @@ nav ul a:hover {
     margin-left: 130px;
     background-color: #fffffe;
     padding: 20px;
-    border-radius: 10px 30px;
+    border-radius: 10px 40px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
 }
 
@@ -481,12 +485,9 @@ footer {
 
 .footer_created a {
     text-decoration: none;
-    color: #fffffe;
-}
-
-.footer_created a:hover {
     color: #90b4ce;
 }
+
 
 @media (min-width: 320px) and (max-width: 425px) {
     
@@ -521,6 +522,7 @@ footer {
 
     .banner h1 {
         font-size: 35px;
+        padding-top: 15vh;
     }
 
     .banner p {
