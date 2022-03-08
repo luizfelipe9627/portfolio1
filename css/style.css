@@ -69,14 +69,12 @@ button a {
 */
 
 .menu {
-    flex: 1;
     display: flex;
     justify-content: flex-end;
     background-color: #094067da;
     position: fixed;
     width: 100vw;
-    height: 60px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 nav ul {
@@ -281,7 +279,12 @@ nav ul a:hover {
 .container_skills img {
     width: 120px;
     height: 120px;
-    padding: 20px;
+    padding: 25px;
+}
+
+.container_skills img:hover {
+    width: 130px;
+    height: 130px;
 }
 
 .content_skills {
@@ -294,7 +297,7 @@ nav ul a:hover {
 }
 
 .content_skills h3 {
-    margin-top: -15px;
+    margin-top: -25px;
 }
 
 /*
@@ -330,6 +333,11 @@ nav ul a:hover {
     width: 60px;
     height: 60px;
     padding-bottom: 10px;
+}
+
+.code img:hover {
+    width: 70px;
+    height: 70px;
 }
 
 /*
@@ -382,6 +390,11 @@ nav ul a:hover {
 .section_contact img {
     width: 40px;
     height: 40px;
+}
+
+.section_contact img:hover {
+    width: 50px;
+    height: 50px;
 }
 
 .section_contact {
@@ -565,8 +578,14 @@ footer {
     }
 
 
- 
+    .container_body.services {
+        padding-bottom: 20px;
+    }
     
+    .container_services {
+        padding-bottom: 40px;
+    }   
+
     .container_flex_services {
         flex-direction: column;
         justify-content: space-around;
