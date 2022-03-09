@@ -143,7 +143,7 @@ nav ul a:hover {
     text-align: center;
     margin: auto;
     color: #90b4ce;
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Syne Mono', monospace;
 }
 
@@ -532,7 +532,7 @@ footer {
     }
 
     .banner p {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .photo img {
