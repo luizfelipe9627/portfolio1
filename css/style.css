@@ -178,20 +178,25 @@ nav ul a:hover {
 }
 
 .social_media img {
-    width: 20px;
-    height: 20px;
+    height: 27px;
     margin-top: 8px;
+}
+
+.linkedin img {
+    height: 35px;
+    width: 35px;
+    margin-top: 4px;
 }
 
 .linkedin, .whatsapp, .github {
     text-align: center;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     background-color: #fffffe;
     border-radius: 50%;
 }
 
-.github {
+.whatsapp {
     margin-left: 40px;
     margin-right: 40px;
 }

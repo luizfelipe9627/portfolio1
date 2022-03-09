@@ -9,5 +9,3 @@ window.onload = function() {
         }
     });
 };
-
-window.alert('Portifólio em construção!');
