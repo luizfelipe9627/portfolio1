@@ -2,7 +2,7 @@
     position: fixed;
     bottom: -10px;
     right: 0px;
-    z-index: 1000;
+
 }
 
 .whatsapp-link img {
@@ -213,6 +213,7 @@ nav ul a:hover {
 
 .container_education {
     padding: 20px;
+    padding-top: 0;
     background-color: #fffffe;
     border-radius: 10px 40px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
