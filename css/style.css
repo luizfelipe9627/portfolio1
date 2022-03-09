@@ -1,3 +1,15 @@
+.whatsapp-link {
+    position: fixed;
+    bottom: -10px;
+    right: 0px;
+    z-index: 1000;
+}
+
+.whatsapp-link img {
+    width: 120px;
+    height: 120px;
+}
+
 /*
     GERAL ↴
 */
@@ -489,6 +501,11 @@ footer {
 
 @media (min-width: 320px) and (max-width: 425px) {
     
+    .whatsapp-link {
+        bottom: -15px;
+        right: -15px;
+    }
+
     .menu {
         height: 75px;
     }
