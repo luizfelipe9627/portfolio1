@@ -1,9 +1,7 @@
 .whatsapp-link {
     position: fixed;
-    
     bottom: -10px;
     right: 0px;
-
 }
 
 .whatsapp-link img {
@@ -141,6 +139,9 @@ nav ul a:hover {
 .banner {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner h1 {
@@ -215,6 +216,7 @@ nav ul a:hover {
 .container_about_me {
     justify-content: space-around;
     display: flex;
+    align-items: center;
 }
 
 .container_education {
@@ -365,14 +367,20 @@ nav ul a:hover {
     background-size: cover;
 }
 
+.container_body.projects {
+    justify-content: center;
+    display: flex;
+}
+
 .section_projects {
     display: flex;
     justify-content: space-around;
+    max-width: 80vw;
+    flex-wrap: wrap;
 }
 
 .content_projects {
     text-align: center;
-    max-width: 400px;
 }
 
 .content_projects h3 {
@@ -382,6 +390,7 @@ nav ul a:hover {
 
 .content_projects p {
     color: #fffffe;
+    max-width: 400px;
 }
 
 .content_projects img{
@@ -505,8 +514,11 @@ footer {
     color: #90b4ce;
 }
 
+/*
+    ÁREA RESPONSIVA SMARTPHONE ↴
+*/
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (max-width: 500px) {
     
     /*
     GERAL ↴
@@ -566,11 +578,6 @@ footer {
         ÁREA BANNER ↴
     */
 
-    .container_body.banner {
-        padding: 0;
-        padding-top: 80px;
-    }
-
     .banner h1 {
         font-size: 35px;
     }
@@ -581,6 +588,7 @@ footer {
 
     .photo img {
         margin-top: 50px;
+        width: auto;
     }
     
     .social_media {
@@ -620,11 +628,11 @@ footer {
     .container_skills {
     justify-content: space-around;
     flex-wrap: wrap;
-    
     }
 
     .content_skills {
         margin-bottom: 30px;
+        width: auto;
     }
 
     /*
@@ -663,6 +671,414 @@ footer {
     .content_projects {
         text-align: center;
         margin-top: 40px;
+    }
+
+    .content_projects img {
+        width: 250px;
+    }
+
+    /*
+        ÁREA CONTATO ↴
+    */
+
+    .content_contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .area_local, .area_email {
+        width: 300px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .input {
+        padding-top: 0;
+    }
+
+    .subject {
+        padding-top: 30px;
+    }
+
+    .subject input {
+        
+        width: 300px
+    }
+
+    input {
+        width: 300px;
+    }
+
+    .name_user {
+        margin-bottom: 30px;
+    } 
+
+    .message textarea {
+        width: 300px;
+    }
+}
+
+/*
+    ÁREA RESPONSIVA TABLET ↴
+*/
+
+@media (min-width: 501px) and (max-width: 768px) {
+
+    /*
+        GERAL ↴
+    */
+    p {
+        max-width: 80vh;
+    }
+
+    h1, h2 {
+        font-size: 35px;
+    }
+
+    .whatsapp-link img {
+        width: 160px;
+        height: 160px;
+    }
+
+    /*
+        ÁREA MENU ↴
+    */
+
+    .menu {
+        height: 75px;
+    }
+
+    .menu_mobile {
+        display: block;
+        width: 55px;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0 , 0.9);
+        width: 50vw;
+        height: calc(100vh - 70px);
+        top: 7vh;
+        right: 0;
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+    }
+
+    .menu nav li a {
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+    }
+
+    .menu li.active a {
+        border: none;
+    }
+
+    /*
+        ÁREA BANNER ↴
+    */
+
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .banner p {
+        font-size: 45px;
+    }
+
+    .photo img {
+        margin-top: 50px;
+    }
+    
+    .social_media {
+        padding-top: 70px;
+    }
+
+    /*
+        ÁREA SOBRE MIM ↴
+    */
+
+    .container_about_me {
+        flex-direction: column;
+    }
+
+    .container_about_me {
+        flex-wrap: wrap;
+    }
+
+    .container_body.education {
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+
+    .container_education {
+        margin-bottom: 30px
+    }
+
+    .container_line {
+        height: 100px;
+    }
+
+    /*
+        ÁREA HABILIDADES ↴
+    */
+
+    .container_body.skills {
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+    
+    .container_skills {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    }
+
+    .content_skills {
+        margin-bottom: 30px;
+    }
+
+    /*
+        ÁREA SERVIÇOS ↴
+    */
+
+    .container_body.services {
+        padding-bottom: 20px;
+    }
+    
+    .container_services {
+        padding-bottom: 40px;
+    }   
+
+    .container_flex_services {
+        flex-wrap: wrap;
+    }
+
+    /*
+        ÁREA PROJETOS ↴
+    */
+
+    .container_body.projects {
+        display: flex;
+         justify-content: center;
+         padding-top: 0;
+     }
+ 
+     .section_projects {
+         max-width: 800px;
+         flex-wrap: wrap;
+     }
+ 
+     .content_projects {
+         text-align: center;
+         margin-top: 40px;
+     }
+ 
+     .content_projects h3 {
+         font-size: 26px;
+    }
+
+    /*
+        ÁREA CONTATO ↴
+    */
+
+    .content_contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .area_local, .area_email {
+        width: 300px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .input {
+        padding-top: 0;
+    }
+
+    .subject {
+        padding-top: 30px;
+    }
+
+    .subject input {
+        
+        width: 300px
+    }
+
+    input {
+        width: 300px;
+    }
+
+    .name_user {
+        margin-bottom: 30px;
+    } 
+
+    .message textarea {
+        width: 300px;
+    }
+}
+
+/*
+    ÁREA RESPONSIVA DESKTOP ↴
+*/
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+    /*
+        GERAL ↴
+    */
+    p {
+        max-width: 80vh;
+    }
+
+    h1, h2 {
+        font-size: 35px;
+    }
+
+    .whatsapp-link img {
+        width: 160px;
+        height: 160px;
+    }
+
+    /*
+        ÁREA MENU ↴
+    */
+
+    .menu {
+        height: 75px;
+    }
+
+    .menu_mobile {
+        display: block;
+        width: 55px;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0 , 0.9);
+        width: 50vw;
+        height: calc(100vh - 70px);
+        top: 7vh;
+        right: 0;
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+    }
+
+    .menu nav li a {
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+    }
+
+    .menu li.active a {
+        border: none;
+    }
+
+    /*
+        ÁREA BANNER ↴
+    */
+
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .banner p {
+        font-size: 45px;
+    }
+
+    .photo img {
+        margin-top: 50px;
+    }
+    
+    .social_media {
+        padding-top: 70px;
+    }
+
+    /*
+        ÁREA SOBRE MIM ↴
+    */
+
+    .container_about_me {
+        flex-wrap: wrap;
+    }
+
+    .container_body.education {
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+
+    .container_education {
+        margin-bottom: 30px
+    }
+
+    .container_line {
+        height: 100px;
+    }
+
+    /*
+        ÁREA HABILIDADES ↴
+    */
+
+    .container_body.skills {
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+    
+    .container_skills {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    }
+
+    .content_skills {
+        margin-bottom: 30px;
+    }
+
+    /*
+        ÁREA SERVIÇOS ↴
+    */
+
+    .container_body.services {
+        padding-bottom: 20px;
+    }
+    
+    .container_services {
+        padding-bottom: 40px;
+    }   
+
+    .container_flex_services {
+        flex-wrap: wrap;
+    }
+
+    /*
+        ÁREA PROJETOS ↴
+    */
+
+    .container_body.projects {
+       display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    .section_projects {
+        max-width: 800px;
+        flex-wrap: wrap;
+    }
+
+    .content_projects {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .content_projects h3 {
+        font-size: 26px;
     }
 
     .content_projects img {
@@ -710,3 +1126,4 @@ footer {
         width: 300px;
     }
 }
+
