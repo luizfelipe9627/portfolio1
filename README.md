@@ -8,7 +8,7 @@
 
 Criei meu primeiro portifólio, nele eu usei e botei em prática meu conhecimento sobre HTML5, CSS3 e sobre Responsividade. Ele está 100% responsivo para qualquer dispositivo móvel. Fiquei muito satisfeito com o resultado.
 
-## <a href="https://luizfelipe9627.github.io/portifolio/">Acesse o portifólio</a>
+### <a href="https://luizfelipe9627.github.io/portifolio/">Acesse o portifólio</a>
 
 ## 💻 Tecnologias utilizadas
 
