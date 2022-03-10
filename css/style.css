@@ -508,10 +508,26 @@ footer {
 
 @media (min-width: 320px) and (max-width: 425px) {
     
+    /*
+    GERAL ↴
+    */
+    
+    p {
+        max-width: 80vw;
+    }
+
+    /*
+    ÁREA BOTÃO FLUTUANTE ↴
+    */
+
     .whatsapp-link {
         bottom: -15px;
         right: -15px;
     }
+
+    /*
+        ÁREA MENU ↴
+    */
 
     .menu {
         height: 75px;
@@ -546,6 +562,10 @@ footer {
         border: none;
     }
 
+    /*
+        ÁREA BANNER ↴
+    */
+
     .container_body.banner {
         padding: 0;
         padding-top: 80px;
@@ -567,11 +587,9 @@ footer {
         padding-top: 70px;
     }
 
-
-
-    p {
-        max-width: 80vw;
-    }
+    /*
+        ÁREA SOBRE MIM ↴
+    */
 
     .container_about_me {
         flex-direction: column;
@@ -590,7 +608,10 @@ footer {
     .container_line {
         height: 100px;
     }
-
+     
+    /*
+        ÁREA HABILIDADES ↴
+    */
 
     .container_body.skills {
         padding-bottom: 10px
@@ -602,11 +623,13 @@ footer {
     
     }
 
-
     .content_skills {
         margin-bottom: 30px;
     }
 
+    /*
+        ÁREA SERVIÇOS ↴
+    */
 
     .container_body.services {
         padding-bottom: 20px;
@@ -624,6 +647,10 @@ footer {
     .section_services {
         width: auto;
     }
+
+    /*
+        ÁREA PROJETOS ↴
+    */
 
     .container_body.projects {
         padding-top: 0;
@@ -643,6 +670,9 @@ footer {
         height: 170px;
     }
 
+    /*
+        ÁREA CONTATO ↴
+    */
 
     .content_contact {
         flex-direction: column;
