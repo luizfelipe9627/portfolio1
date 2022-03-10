@@ -4,7 +4,7 @@
 
 <img src="https://luizfelipe9627.github.io/portifolio/images/portifolio.png" alt="Portifólio">
 
-## 📄 Resumo
+## 📄 Descrição
 
 Criei meu primeiro portifólio, nele eu usei e botei em prática meu conhecimento sobre HTML5, CSS3 e sobre Responsividade. Ele está 100% responsivo para qualquer dispositivo móvel. Fiquei muito satisfeito com o resultado.
 
@@ -30,7 +30,7 @@ Criei meu primeiro portifólio, nele eu usei e botei em prática meu conheciment
   </tr>
 </table>
 
-## 😄 Me siga nas redes sociais<br>
+## 📷 Me siga nas redes sociais<br>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/luizfelipe9627/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
