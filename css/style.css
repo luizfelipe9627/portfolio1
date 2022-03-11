@@ -66,6 +66,10 @@ button a {
     color: #FFF;
 }
 
+button:hover {
+    color: #094067;
+}
+
 /*
     BUTTON FLUTUANTE WHATSAPP ↴
 */
@@ -562,7 +566,7 @@ footer {
         background-color: rgba(0, 0, 0 , 0.9);
         width: 50vw;
         height: calc(100vh - 70px);
-        top: 8vh;
+        top: 8.2vh;
         right: 0;
     }
 
