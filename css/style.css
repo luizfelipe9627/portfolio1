@@ -92,7 +92,7 @@ button:hover {
 .menu {
     display: flex;
     justify-content: flex-end;
-    background-color: #094067da;
+    background-color: #094067;
     position: fixed;
     width: 100vw;
     padding-right: 40px;
@@ -469,6 +469,7 @@ textarea, input {
     border-left: none;
     border-right: none;
     outline: none;
+    color: #FFF;
 }
 
 ::placeholder {
