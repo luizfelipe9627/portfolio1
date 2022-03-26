@@ -21,9 +21,12 @@ window.onload = function() {
 link.on("click", function () {
     var seletor = $
     (this).attr('href');
-
-    var posicao = $
-    (seletor).offset().top;
-
-    $('html, body').animate({ scrollTop: 0}, 500);
 });
+
+/*
+    ROLAGEM SUAVE ↴
+*/
+
+const menuLinks = document.querySelectorAll('.menu nav li a[href^="#"]');
+
+console.log(menuLinks);

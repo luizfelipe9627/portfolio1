@@ -8,6 +8,11 @@
     margin:  0;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+}
+
 body {
     overflow-x: hidden;
     flex-wrap: wrap;
@@ -223,71 +228,30 @@ nav ul a:hover {
     background-size: cover;
 }
 
+.container_body.about_me {
+    display: flex;
+    justify-content: center;
+}
+
+.container_icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container_icon img {
+    width: 70px;
+}
+
 .container_about_me {
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-}
-
-.container_education {
-    padding: 20px;
-    padding-top: 0;
     background-color: #fffffe;
-    border-radius: 10px 40px;
     box-shadow: 10px -10px 3px rgba(255, 255, 255, 0.24);
+    border-radius: 10px 40px;
+    max-width: 800px;
 }
 
-.container {
-    position: relative;
+.container_about_me p {
     padding: 20px;
-    padding-bottom: 0;
-}
-
-.container_line {
-    border-right: 2px solid #3da9fc;
-    left: 10px;
-    position: absolute;
-    height: 90px;
-    padding: 10px;
-}
-
-.container_items {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-.container_item {
-    margin-bottom: 8px;
-}
-
-.container_top {
-    display: flex;
-}
-
-.container h2 {
-    padding-bottom: 10px;
-}
-
-.container_circle {
-    background-color: #3da9fc;
-    border-radius: 50%;
-    height: 23px;
-    width: 23px;
-}
-
-.container_title {
-    margin-left: 17px;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-}
-
-.container_desc {
-    margin-left: 40px;
-    text-align: left;
-    margin-bottom: 5px;
-    color: #5f6c7b;
 }
 
 /*
