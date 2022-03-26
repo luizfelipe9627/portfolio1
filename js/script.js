@@ -22,11 +22,3 @@ link.on("click", function () {
     var seletor = $
     (this).attr('href');
 });
-
-/*
-    ROLAGEM SUAVE ↴
-*/
-
-const menuLinks = document.querySelectorAll('.menu nav li a[href^="#"]');
-
-console.log(menuLinks);
