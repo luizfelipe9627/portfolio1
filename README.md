@@ -1,14 +1,13 @@
 # Portfólio
-
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/portfolio1/blob/main/assets/img/apresentacao.gif" alt="Apresentação do portfólio">
+<img src="https://github.com/luizfelipe9627/portfolio1/blob/main/src/assets/img/apresentacao.gif" alt="Apresentação do portfólio">
 
 ## 📄 Descrição
 
 Criei meu primeiro portfólio, nele eu usei e botei em prática meu conhecimento sobre HTML5, CSS3 e sobre Responsividade. Ele está 100% responsivo para qualquer dispositivo móvel. Fiquei muito satisfeito com o resultado.
 
-### <a href="https://luizfelipe9627.github.io/portfolio">Acesse o portfólio</a>
+### <a href="https://luizfelipe9627-portfolio1.netlify.app">Acesse o portfólio</a>
 
 ## 💻 Tecnologias utilizadas
 
